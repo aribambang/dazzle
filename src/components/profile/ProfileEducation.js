@@ -8,8 +8,8 @@ const ProfileEducation = ({
   <div>
     <h3 className='text-dark'>{school}</h3>
     <p>
-      <Moment format='DD-MM-YYYY'>{from}</Moment> -{' '}
-      {!to ? 'Now' : <Moment format='DD-MM-YYYY'>{to}</Moment>}
+      <Moment format='MMM YYYY'>{from}</Moment> -{' '}
+      {!to ? 'Now' : <Moment format='MMM YYYY'>{to}</Moment>}
     </p>
     <p>
       <strong>Degree: </strong> {degree}
