@@ -15,8 +15,8 @@ const CreateProfile = ({ createProfile, history }) => {
     bio: '',
     twitter: '',
     facebook: '',
-    linkedin: '',
     youtube: '',
+    linkedin: '',
     instagram: ''
   });
 
@@ -32,8 +32,8 @@ const CreateProfile = ({ createProfile, history }) => {
     bio,
     twitter,
     facebook,
-    linkedin,
     youtube,
+    linkedin,
     instagram
   } = formData;
 

@@ -20,8 +20,8 @@ const EditProfile = ({
     bio: '',
     twitter: '',
     facebook: '',
-    linkedin: '',
     youtube: '',
+    linkedin: '',
     instagram: ''
   });
 
@@ -41,8 +41,8 @@ const EditProfile = ({
       bio: loading || !profile.bio ? '' : profile.bio,
       twitter: loading || !profile.social ? '' : profile.social.twitter,
       facebook: loading || !profile.social ? '' : profile.social.facebook,
-      linkedin: loading || !profile.social ? '' : profile.social.linkedin,
       youtube: loading || !profile.social ? '' : profile.social.youtube,
+      linkedin: loading || !profile.social ? '' : profile.social.linkedin,
       instagram: loading || !profile.social ? '' : profile.social.instagram
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -58,8 +58,8 @@ const EditProfile = ({
     bio,
     twitter,
     facebook,
-    linkedin,
     youtube,
+    linkedin,
     instagram
   } = formData;
 
